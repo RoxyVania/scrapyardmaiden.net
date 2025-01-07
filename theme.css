@@ -1,6 +1,12 @@
 body {
-    background-color:  lavenderblush;
+    background-color:  rgba(244, 164, 247, 0.897);
   }
-  p1 {
+  p.pink {
+    color: rgb(255, 0, 128);
+  }
+  p.red {
+    color: rgb(255, 0, 0);
+  }
+  p.black {
     color: rgb(0, 0, 0);
   }
