@@ -1,21 +1,43 @@
 body {
-    background-color:  rgba(106, 81, 128, 0.966);
-  }
-  p.pink {
-    color: rgb(253, 121, 187);
-  }
-  p.red {
-    color: rgb(255, 0, 0);
-  }
-  p.black {
-    color: rgb(0, 0, 0);
-  }
-  p.VCR{
-    font-family: "VCR_OSD_MONO"
-  }
-  @font-face{
-    font-family: "VCR_OSD_MONO";
-    src: local("fonts/vcr_osd_mono_1.001.ttf");
-    src: local("fonts/vcr_osd_mono_1.001.woff");
-    src: local("fonts/vcr_osd_mono_1.001.woff2")
-  }
+  background-image: url("images/ultrakill-7-2-wp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #743aa3;
+  height: 100%;
+  width: 100%;
+}
+
+.bgpurple {
+  background: #66138d;
+}
+
+.dropshadow-white {
+  text-shadow: 2px 2px #ffffff;
+}
+
+.dropshadow-black {
+  text-shadow: 2px 2px #000000;
+}
+
+p.pink {
+  color: rgb(253, 121, 187);
+}
+
+p.red {
+  color: rgb(255, 0, 0);
+}
+
+p.black {
+  color: rgb(0, 0, 0);
+}
+
+p.VCR {
+  font-family: "VCR_OSD_MONO"
+}
+
+@font-face {
+  font-family: "VCR_OSD_MONO";
+  src: local("fonts/vcr_osd_mono_1.001.ttf") format(ttf);
+  src: local("fonts/vcr_osd_mono_1.001.woff") format(woff);
+  src: local("fonts/vcr_osd_mono_1.001.woff2") format(woff2);
+}
