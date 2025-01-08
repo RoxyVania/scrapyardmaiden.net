@@ -19,19 +19,19 @@ body {
   text-shadow: 2px 2px #000000;
 }
 
-p.pink {
+.pink {
   color: rgb(253, 121, 187);
 }
 
-p.red {
-  color: rgb(255, 0, 0);
+.white {
+  color: rgb(255, 255, 255);
 }
 
-p.black {
+.black {
   color: rgb(0, 0, 0);
 }
 
-p.VCR {
+.VCR {
   font-family: "VCR_OSD_MONO"
 }
 
