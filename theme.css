@@ -35,8 +35,6 @@ a.button {
   padding: 1px 6px;
   border: 1px outset buttonborder;
   border-radius: 3px;
-  color: #ffffff;
-  background-color: #000000;
   text-decoration: none;
 }
 
@@ -87,10 +85,3 @@ a.button {
    width:fit-content;
    height:fit-content;
   }
-  
-.socialbutton {
-  font-size: 40px;
-  margin: auto;
-  width: auto;
-  padding: 2px 12px 2px;
-}
