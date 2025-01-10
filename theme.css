@@ -1,3 +1,4 @@
+/*Background Image*/
 body {
   background-image: url("images/ultrakill-7-2-wp.png");
   background-size: cover;
@@ -7,6 +8,39 @@ body {
   width: 100%;
 }
 
+/*Positioning & shit*/
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.banished-to-the-corner {
+  position:absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.sizeauto {
+  height: auto;
+  width: auto;
+}
+
+/*fancy schmancy shit*/
+.purpleborder {
+  border: #8616ff solid 4px; 
+}
+
+a.button {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+}
+
+/*Color Variables*/
 .bgpurple {
   background: #66138d;
 }
@@ -31,6 +65,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
+/*Fonts*/
 .VCR {
   font-family: "VCR_OSD_MONO"
 }
@@ -40,4 +75,22 @@ body {
   src: local("fonts/vcr_osd_mono_1.001.ttf") format(ttf);
   src: local("fonts/vcr_osd_mono_1.001.woff") format(woff);
   src: local("fonts/vcr_osd_mono_1.001.woff2") format(woff2);
+}
+
+.size15 {
+  font-size: 15px;
+}
+
+/*specific use case shit (one offs ig? idk)*/
+  /*this one is to fix the header image being slightly offset at certain window sizes*/
+  .fit-content {
+   width:fit-content;
+   height:fit-content;
+  }
+  
+.socialbutton {
+  font-size: 40px;
+  margin: auto;
+  width: auto;
+  padding: 2px 12px 2px;
 }
