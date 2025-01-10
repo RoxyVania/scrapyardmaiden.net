@@ -39,6 +39,12 @@ body {
   bottom: 0px;
 }
 
+.lastfm {
+  position:absolute;
+  right: 18%;
+  bottom: 0px;
+}
+
 .sizeauto {
   height: auto;
   width: auto;
@@ -58,6 +64,17 @@ a.button {
   border: 1px outset buttonborder;
   border-radius: 3px;
   text-decoration: none;
+}
+
+.smedia-button {
+  display:block;
+  font-size:35px;
+  padding: 1px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  text-decoration: none;
+  min-width:250px;
+  text-align: center;
 }
 
 /*Color Variables*/
