@@ -7,6 +7,10 @@ body {
   width: 100%;
 }
 
+.bgdgrey {
+  background:rgb(44, 44, 44)
+}
+
 .bgpurple {
   background: #66138d;
 }
