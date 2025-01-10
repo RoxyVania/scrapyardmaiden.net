@@ -8,6 +8,24 @@ body {
   width: 100%;
 }
 
+/*Body Content Container*/
+.maincontainer {
+  width: 100%;
+  height:100%;
+  margin:0px;
+}
+.centercolumn {
+  background:#000000ab;
+  width:65%;
+  height:100vh;
+  margin:auto;
+  padding:0%;
+  border-top:none;
+  border-bottom:none;
+  border-left:solid #ff8616 4px;
+  border-right: solid #ff8616 4px;
+}
+
 /*Positioning & shit*/
 .center {
   margin: auto;
@@ -29,6 +47,10 @@ body {
 /*fancy schmancy shit*/
 .purpleborder {
   border: #8616ff solid 4px; 
+}
+
+.orangeborder {
+  border: #ff8616 solid 2px;
 }
 
 a.button {
@@ -73,6 +95,12 @@ a.button {
   src: local("fonts/vcr_osd_mono_1.001.ttf") format(ttf);
   src: local("fonts/vcr_osd_mono_1.001.woff") format(woff);
   src: local("fonts/vcr_osd_mono_1.001.woff2") format(woff2);
+}
+
+.ibm-med {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .size15 {
