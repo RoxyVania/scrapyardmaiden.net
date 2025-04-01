@@ -1,0 +1,147 @@
+/*Background Image*/
+body {
+  background-image: url("images/ultrakill-7-2-wp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #743aa3;
+  height: 100%;
+  width: 100%;
+}
+
+/*Body Content Container*/
+.maincontainer {
+  width: 100%;
+  height:100%;
+  margin:0px;
+}
+.centercolumn {
+  background:#000000ab;
+  width:75%;
+  height:100vh;
+  margin:auto;
+  padding:0%;
+  border-top:none;
+  border-bottom:none;
+  border-left:solid #ff8616 4px;
+  border-right: solid #ff8616 4px;
+}
+
+/*Positioning & shit*/
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.banished-to-the-corner {
+  position:absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.lastfm {
+  position:absolute;
+  right: 18%;
+  bottom: 0px;
+}
+
+.sizeauto {
+  height: auto;
+  width: auto;
+}
+
+/*fancy schmancy shit*/
+.purpleborder {
+  border: #8616ff solid 4px; 
+}
+
+.orangeborder {
+  border: #ff8616 solid 2px;
+}
+
+a.button {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.smedia-button {
+  display:block;
+  font-size:35px;
+  padding: 1px;
+  border: 1px outset buttonborder;
+  border-radius: 3px;
+  text-decoration: none;
+  min-width:250px;
+  text-align: center;
+}
+
+/*Color Variables*/
+.bgpurple {
+  background: #66138d;
+}
+
+.dropshadow-white {
+  text-shadow: 2px 2px #ffffff;
+}
+
+.dropshadow-black {
+  text-shadow: 2px 2px #000000;
+}
+
+.pink {
+  color: rgb(253, 121, 187);
+}
+
+.white {
+  color: rgb(255, 255, 255);
+}
+
+.black {
+  color: rgb(0, 0, 0);
+}
+
+/*Fonts*/
+.VCR {
+  font-family: "VCR_OSD_MONO"
+}
+
+@font-face {
+  font-family: "VCR_OSD_MONO";
+  src: local("fonts/vcr_osd_mono_1.001.ttf") format(ttf);
+  src: local("fonts/vcr_osd_mono_1.001.woff") format(woff);
+  src: local("fonts/vcr_osd_mono_1.001.woff2") format(woff2);
+}
+
+.ibm-med {
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.size15 {
+  font-size: 15px;
+}
+
+/*specific use case shit (one offs ig? idk)*/
+  /*this one is to fix the header image being slightly offset at certain window sizes*/
+.fit-content {
+   width:fit-content;
+   height:fit-content;
+  }
+
+.fxb {
+  display: flex;
+  flex-flow: row wrap;
+  width: 65%;
+}
+
+.banner {
+  width: 100%;
+  justify-content: center;
+}
+
+.fxbelem {
+  justify-content: center;
+}
